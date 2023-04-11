@@ -2,9 +2,9 @@ def countWords(frase):
 
     palabras = {}
 
-    palabras_lista = frase.lower().split()
+    palabrasLista = frase.lower().split()
 
-    for palabra in palabras_lista:
+    for palabra in palabrasLista:
 
         if palabra in palabras:
             palabras[palabra] += 1
